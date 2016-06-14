@@ -1,5 +1,5 @@
 FROM       postgres:9.5
-MAINTAINER Nuxeo <contact@nuxeo.com>
+MAINTAINER Alexander Pinnecke <alexander.pinnecke@googlemail.com>
 
 RUN mkdir -p /docker-entrypoint-initdb.d/
 ADD initdb/config.sh /docker-entrypoint-initdb.d/
